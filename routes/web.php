@@ -17,9 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Route::get('/affiliates', function () {
     return view('affiliates');
+});
+
+Route::get('/content', function () {
+    return view('contents');
 });
 
 Route::get('/services', function () {
@@ -28,7 +31,7 @@ Route::get('/services', function () {
 
 
 
-Route::get('/teams', function () {
+Route::get('/team', function () {
     return view('team');
 });
 
