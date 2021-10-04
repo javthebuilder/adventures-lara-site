@@ -185,6 +185,26 @@ body{max-width: 100%;}#slider img{opacity:0.1}#slider .carousel-caption, #slider
 			<li id="menu-item-91" class="{{ Request::segment(1) === 'services' ? 'menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-91' : 'menu-item menu-item-type-post_type menu-item-object-page menu-item-91'}}"><a href="/services/">Services</a></li>
 			<li id="menu-item-44" class="{{ Request::segment(1) === 'affiliates' ? 'menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-44' : 'menu-item menu-item-type-post_type menu-item-object-page menu-item-44'}}"><a href="/affiliates/">Affiliates</a></li>
 			<li id="menu-item-47" class="{{ Request::segment(1) === 'team' ? 'menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-47' : 'menu-item menu-item-type-post_type menu-item-object-page menu-item-47'}}"><a href="/team">Team</a></li>
+			@guest
+			<li id="menu-item-47" class="{{ Request::segment(1) === 'login' ? 'menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-47' : 'menu-item menu-item-type-post_type menu-item-object-page menu-item-47'}}"><a href="/login">Login</a></li>	
+			@endguest
+			@auth
+				<li id="menu-item-47" class="{{ Request::segment(1) === 'home' ? 'menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-47' : 'menu-item menu-item-type-post_type menu-item-object-page menu-item-47'}}"><a href="/home">Dashboard</a></li>	
+				<li id="menu-item-47" class="{{ Request::segment(1) === 'login' ? 'menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-47' : 'menu-item menu-item-type-post_type menu-item-object-page menu-item-47'}}">
+					
+
+				<a class="dropdown-item" href="{{ route('logout') }}"
+				onclick="event.preventDefault();
+							  document.getElementById('logout-form').submit();">
+				 {{ __('Logout') }}
+			 	</a>
+
+				</li>
+			 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+				 @csrf
+			 </form>
+			@endauth
+			
 </ul>
 </div>	        <a href="javascript:void(0)" class="closebtn mobile-menu" onclick="sirat_menu_close_nav()"><i class="fas fa-times"></i><span class="screen-reader-text">Close Button</span></a>
 	    </nav>

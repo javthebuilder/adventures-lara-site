@@ -40,7 +40,10 @@
 
 
 
-<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:15% auto"><figure class="wp-block-media-text__media"><img loading="lazy" width="312" height="360" src="http://157.245.202.252/wp-content/uploads/2021/09/Kirsten-Cuenco-Nakayama.png" alt="" class="wp-image-195 size-thumbnail" srcset="http://157.245.202.252/wp-content/uploads/2021/09/Kirsten-Cuenco-Nakayama.png 312w, http://157.245.202.252/wp-content/uploads/2021/09/Kirsten-Cuenco-Nakayama-260x300.png 260w" sizes="(max-width: 312px) 100vw, 312px"></figure><div class="wp-block-media-text__content">
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:15% auto"><figure class="wp-block-media-text__media"><img loading="lazy" width="312" height="360" 
+  src="http://157.245.202.252/wp-content/uploads/2021/09/Kirsten-Cuenco-Nakayama.png" alt="" class="wp-image-195 size-thumbnail" 
+  srcset="http://157.245.202.252/wp-content/uploads/2021/09/Kirsten-Cuenco-Nakayama.png 312w, 
+  http://157.245.202.252/wp-content/uploads/2021/09/Kirsten-Cuenco-Nakayama-260x300.png 260w" sizes="(max-width: 312px) 100vw, 312px"></figure><div class="wp-block-media-text__content">
 <h2 class="has-luminous-vivid-amber-color has-text-color">KIRSTEN CUENCO-NAKAYAMA</h2>
 
 
