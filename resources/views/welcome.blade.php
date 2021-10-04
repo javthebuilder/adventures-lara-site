@@ -13,7 +13,7 @@
                     <img width="1500" height="600" src="{{ asset('uploads/2021/09/SLIDER.jpg') }}" 
                           class="attachment-post-thumbnail size-post-thumbnail wp-post-image" 
                           alt="" loading="lazy"
-                           srcset="{{ asset('uploads/2021/09/SLIDER.jpg') }} 1500w, http://157.245.202.252/wp-content/uploads/2021/09/SLIDER-300x120.jpg 300w, http://157.245.202.252/wp-content/uploads/2021/09/SLIDER-1024x410.jpg 1024w, http://157.245.202.252/wp-content/uploads/2021/09/SLIDER-768x307.jpg 768w" sizes="(max-width: 1500px) 100vw, 1500px">                </div>
+                           srcset="{{ asset('uploads/2021/09/SLIDER.jpg') }} 1500w, {{ asset('uploads/2021/09/SLIDER-300x120.jpg') }} 300w, {{ asset('uploads/2021/09/SLIDER-1024x410.jpg') }} 1024w, {{ asset('uploads/2021/09/SLIDER-768x307.jpg') }} 768w" sizes="(max-width: 1500px) 100vw, 1500px">                </div>
                   <div class="carousel-caption">
                     <div class="inner_carousel">
                       <h1><a href="http://157.245.202.252/digital-distruption-globally/" title="DIGITAL DISTRUPTION GLOBALLY">DIGITAL DISTRUPTION GLOBALLY</a></h1>
