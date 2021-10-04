@@ -85,11 +85,24 @@ class ContentController extends Controller
      * @param  \App\Models\Content  $content
      * @return \Illuminate\Http\Response
      */
-    public function show(Content $content)
+    public function show($name)
     {
+
+        $content = Content::where('name' , '=', $name)->first();
+        return view('content_show')->with(
+            [
+                'content' => $content
+            ]
+        );
+    }
+
+    public function show_list()
+    {
+
+        
         return view('contents')->with(
             [
-                'contents' => Content::where('status', '=', 'A')->get()
+                'contents' => Content::where('status' , '=', 'A')->get()
             ]
         );
     }

@@ -23,7 +23,14 @@ Route::get('/affiliates', function () {
 });
 
 
-Route::get('/content', [ ContentController::class, 'show' ])->name('content-list-show');
+Route::get('/content', [ ContentController::class, 'show_list' ])->name('content-list-show');
+
+Route::get('/content/{name}', [ ContentController::class, 'show' ])->name('content-show');
+
+Route::get('/services', function () {
+    return view('services');
+});
+
 
 Route::get('/services', function () {
     return view('services');
