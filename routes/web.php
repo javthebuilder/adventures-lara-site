@@ -39,3 +39,7 @@ Route::get('/team', function () {
 Route::get('/teams', function () {
     return view('team');
 });
+
+Route::get('/sample', function () {
+    return view('sample');
+});
