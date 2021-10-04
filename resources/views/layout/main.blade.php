@@ -9,7 +9,7 @@
 <meta name='robots' content='max-image-preview:large' />
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="AdVentures Concepts &raquo; Feed" href="http://157.245.202.252/feed/" />
+<link rel="alternate" type="application/rss+xml" title="AdVentures Concepts &raquo; Feed" href="/feed/" />
 <link rel="alternate" type="application/rss+xml" title="AdVentures Concepts &raquo; Comments Feed" href="http://157.245.202.252/comments/feed/" />
 		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/157.245.202.252\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.1"}};
@@ -29,34 +29,39 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-	<link rel='stylesheet' id='iepa-fancybox-css-css'  href='http://157.245.202.252/wp-content/plugins/ibtana-ecommerce-product-addons/dist/css/fancybox.css?ver=0.1.9' type='text/css' media='all' />
-<link rel='stylesheet' id='iepa-front-css-css'  href='http://157.245.202.252/wp-content/plugins/ibtana-ecommerce-product-addons/dist/css/gallery-slider.css?ver=0.1.9' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-block-library-css'  href='http://157.245.202.252/wp-includes/css/dist/block-library/style.min.css?ver=5.8.1' type='text/css' media='all' />
+
+	<link rel='stylesheet' id='iepa-fancybox-css-css'  href='{{ asset('css/fancybox.css') }}' type='text/css' media='all' />
+<link rel='stylesheet' id='iepa-front-css-css'  href='{{ asset('css/gallery-slider.css') }}' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='{{ asset('css/style.min.css') }}' type='text/css' media='all' />
 <style id='wp-block-library-theme-inline-css' type='text/css'>
+
 #start-resizable-editor-section{display:none}.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{font-family:Menlo,Consolas,monaco,monospace;color:#1e1e1e;padding:.8em 1em;border:1px solid #ddd;border-radius:4px}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-group.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto;opacity:.4}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}#end-resizable-editor-section{display:none}
 </style>
-<link rel='stylesheet' id='ibtana-ecommerce-product-addons-iepa-style-css-css'  href='http://157.245.202.252/wp-content/plugins/ibtana-ecommerce-product-addons/dist/blocks.style.build.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ibtana-ecommerce-product-addons-iepa-style-css-css'  href='{{ asset('css/blocks.style.build.css') }}' type='text/css' media='all' />
 <link rel='stylesheet' id='sirat-font-css'  href='//fonts.googleapis.com/css?family=ZCOOL+XiaoWei%7CHeebo%3A100%2C300%2C400%2C500%2C700%2C800%2C900%7CSaira%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CKrub%3A200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%7CPT+Sans%3A300%2C400%2C600%2C700%2C800%2C900%7CRoboto%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i%7CRoboto+Condensed%3A400%2C700%7COpen+Sans%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C700%2C700i%2C800%2C800i%7COverpass%7CStaatliches%7CMontserrat%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CPlayball%3A300%2C400%2C600%2C700%2C800%2C900%7CAlegreya%3A300%2C400%2C600%2C700%2C800%2C900%7CJulius+Sans+One%7CArsenal%7CSlabo%7CLato%7COverpass+Mono%7CSource+Sans+Pro%7CRaleway%7CMerriweather%7CDroid+Sans%7CRubik%7CLora%7CUbuntu%7CCabin%7CArimo%7CPlayfair+Display%7CQuicksand%7CPadauk%7CMuli%7CInconsolata%7CBitter%7CPacifico%7CIndie+Flower%7CVT323%7CDosis%7CFrank+Ruhl+Libre%7CFjalla+One%7COxygen%3A300%2C400%2C700%7CArvo%7CNoto+Serif%7CLobster%7CCrimson+Text%7CYanone+Kaffeesatz%7CAnton%7CLibre+Baskerville%7CBree+Serif%7CGloria+Hallelujah%7CJosefin+Sans%7CAbril+Fatface%7CVarela+Round%7CVampiro+One%7CShadows+Into+Light%7CCuprum%7CRokkitt%7CVollkorn%7CFrancois+One%7COrbitron%7CPatua+One%7CAcme%7CSatisfy%7CJosefin+Slab%7CQuattrocento+Sans%7CArchitects+Daughter%7CRusso+One%7CMonda%7CRighteous%7CLobster+Two%7CHammersmith+One%7CCourgette%7CPermanent+Marker%7CCherry+Swash%7CCormorant+Garamond%7CPoiret+One%7CBenchNine%7CEconomica%7CHandlee%7CCardo%7CAlfa+Slab+One%7CAveria+Serif+Libre%7CCookie%7CChewy%7CGreat+Vibes%7CComing+Soon%7CPhilosopher%7CDays+One%7CKanit%7CShrikhand%7CTangerine%7CIM+Fell+English+SC%7CBoogaloo%7CBangers%7CFredoka+One%7CBad+Script%7CVolkhov%7CShadows+Into+Light+Two%7CMarck+Script%7CSacramento%7CUnica+One&#038;ver=5.8.1' type='text/css' media='all' />
-<link rel='stylesheet' id='sirat-block-style-css'  href='http://157.245.202.252/wp-content/themes/sirat/assets/css/blocks.css?ver=5.8.1' type='text/css' media='all' />
-<link rel='stylesheet' id='sirat-block-patterns-style-frontend-css'  href='http://157.245.202.252/wp-content/themes/sirat/inc/block-patterns/css/block-frontend.css?ver=5.8.1' type='text/css' media='all' />
-<link rel='stylesheet' id='bootstrap-style-css'  href='http://157.245.202.252/wp-content/themes/sirat/assets/css/bootstrap.css?ver=5.8.1' type='text/css' media='all' />
-<link rel='stylesheet' id='sirat-basic-style-css'  href='http://157.245.202.252/wp-content/themes/sirat/style.css?ver=5.8.1' type='text/css' media='all' />
+
+<link rel='stylesheet' id='sirat-block-style-css'  href='{{ asset('css/blocks.css') }}' type='text/css' media='all' />
+
+<link rel='stylesheet' id='sirat-block-patterns-style-frontend-css'  href='{{ asset('css/block-frontend.css') }}' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='{{ asset('css/bootstrap.css') }}' type='text/css' media='all' />
+<link rel='stylesheet' id='sirat-basic-style-css'  href='{{ asset('css/style.css') }}' type='text/css' media='all' />
 <style id='sirat-basic-style-inline-css' type='text/css'>
 body{max-width: 100%;}#slider img{opacity:0.1}#slider .carousel-caption, #slider .inner_carousel, #slider .inner_carousel h1{text-align:left; left:15%; right:45%;}.slider-page-image{
 		background-color: #febe00;
 		}#header main-menu-navigation ul{text-align:right;}.logo{border-bottom:none;}.post-main-box{}.top-bar{padding-top: 10px; padding-bottom: 10px;}.customize-partial-edit-shortcuts-shown .slider-refresh{display: none;}#slider{background-color: #0a0a0a;}.search-box i{padding-top: 15px; padding-bottom: 15px;padding-left: 10px;padding-right: 10px;font-size: ;border-radius: 50px;}.main-menu-navigation a{font-size: 14;}.main-menu-navigation a{}.main-menu-navigation a{text-transform:uppercase;}@media screen and (max-width:575px) {.top-bar{display:block;} }@media screen and (max-width:575px) {.search-box{display:block;} }@media screen and (max-width:575px){.header-fixed{position:static;} }@media screen and (max-width:575px) {#slider{display:none;} }@media screen and (max-width:575px) {#slider .more-btn, #slider .slider-inner-content .more-btn{display:none;} }@media screen and (max-width:575px) {span.entry-date{display:inline-block !important;} }@media screen and (max-width:575px){span.entry-author{display:none !important;} }@media screen and (max-width:575px){span.entry-comments{display:none !important;} }@media screen and (max-width:575px) {span.entry-time{display:inline-block !important;} }@media screen and (max-width:575px) {.post-info{display:block;} }@media screen and (max-width:575px) {a.scrollup{visibility:visible !important;} }@media screen and (max-width:575px) {#sidebar{display:block;} }.woocommerce ul.products li.product .onsale{left: auto; right: 0;}.copyright p{font-size: 10px;}.copyright p{text-align: right;}#sidebar .custom-social-icons i, #footer .custom-social-icons i{border-radius: 25px;}{background-color: transparent;}.logo .site-title{font-size: 0px;}.logo p.site-description{font-size: 0px;}
 </style>
-<link rel='stylesheet' id='font-awesome-css-css'  href='http://157.245.202.252/wp-content/themes/sirat/assets/css/fontawesome-all.css?ver=5.8.1' type='text/css' media='all' />
-<link rel='stylesheet' id='dashicons-css'  href='http://157.245.202.252/wp-includes/css/dashicons.min.css?ver=5.8.1' type='text/css' media='all' />
-<script type='text/javascript' src='http://157.245.202.252/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
-<script type='text/javascript' src='http://157.245.202.252/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
-<script type='text/javascript' src='http://157.245.202.252/wp-content/plugins/ibtana-ecommerce-product-addons/dist/js/slick.min.js?ver=0.1.9' id='iepa-slick-js-js'></script>
-<script type='text/javascript' src='http://157.245.202.252/wp-content/themes/sirat/assets/js/custom.js?ver=5.8.1' id='sirat-custom-scripts-jquery-js'></script>
-<link rel="https://api.w.org/" href="http://157.245.202.252/wp-json/" /><link rel="alternate" type="application/json" href="http://157.245.202.252/wp-json/wp/v2/pages/2" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://157.245.202.252/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://157.245.202.252/wp-includes/wlwmanifest.xml" /> 
+{{ asset('js/custom.js') }}
+<link rel='stylesheet' id='font-awesome-css-css'  href='{{ asset('css/fontawesome-all.css') }}' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='{{ asset('css/dashicons.min.css') }}' type='text/css' media='all' />
+<script type='text/javascript' src='{{ asset('js/jquery.min.js') }}' id='jquery-core-js'></script>
+<script type='text/javascript' src='{{ asset('js/jquery-migrate.min.js') }}' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='{{ asset('js/slick.min.js') }}' id='iepa-slick-js-js'></script>
+<script type='text/javascript' src='{{ asset('js/custom.js') }}' id='sirat-custom-scripts-jquery-js'></script>
+{{-- <link rel="https://api.w.org/" href="http://157.245.202.252/wp-json/" /><link rel="alternate" type="application/json" href="http://157.245.202.252/wp-json/wp/v2/pages/2" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://157.245.202.252/xmlrpc.php?rsd" /> --}}
+{{-- <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://157.245.202.252/wp-includes/wlwmanifest.xml" />  --}}
 <meta name="generator" content="WordPress 5.8.1" />
-<link rel="canonical" href="http://157.245.202.252/" />
-<link rel='shortlink' href='http://157.245.202.252/' />
+<link rel="canonical" href="/" />
+<link rel='shortlink' href='/' />
 <link rel="alternate" type="application/json+oembed" href="http://157.245.202.252/wp-json/oembed/1.0/embed?url=http%3A%2F%2F157.245.202.252%2F" />
 <link rel="alternate" type="text/xml+oembed" href="http://157.245.202.252/wp-json/oembed/1.0/embed?url=http%3A%2F%2F157.245.202.252%2F&#038;format=xml" />
 
@@ -147,7 +152,7 @@ body{max-width: 100%;}#slider img{opacity:0.1}#slider .carousel-caption, #slider
 	</div>
 
 			
-<div class="middle-header  header-sticky"">
+<div class="middle-header  header-sticky">
   <div class="container">
             <div class="row">
           <div class="col-lg-3 col-md-3 align-self-center">
@@ -160,8 +165,8 @@ body{max-width: 100%;}#slider img{opacity:0.1}#slider .carousel-caption, #slider
 	max-width: 240px;
 	width: 240px;
 }
-</style><a href="http://157.245.202.252/" class="custom-logo-link" rel="home" aria-current="page"><img width="240" height="55" src="http://157.245.202.252/wp-content/uploads/2021/09/cropped-WEBLOGO.png" class="custom-logo" alt="AdVentures Concepts" /></a></div>
-                                                                                                        <p class="site-title"><a href="http://157.245.202.252/" rel="home">AdVentures Concepts</a></p>
+</style><a href="/" class="custom-logo-link" rel="home" aria-current="page"><img width="240" height="55" src="{{ asset('uploads/2021/09/cropped-WEBLOGO.png') }}" class="custom-logo" alt="AdVentures Concepts" /></a></div>
+                                                                                                        <p class="site-title"><a href="/" rel="home">AdVentures Concepts</a></p>
                                                                                   </div>
           </div>
           <div class="col-lg-9 col-md-9 align-self-center">
