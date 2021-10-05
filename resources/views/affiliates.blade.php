@@ -5,14 +5,24 @@
 
 <main id="content" role="main" class="middle-align">
     <div class="container">
-                                            <div class="bradcrumbs">
-                        <a href="http://157.245.202.252">AdVentures Concepts</a> <span> Affiliates                    </span></div>
+    <div class="bradcrumbs">
+      <a href="/">AdVentures Concepts</a> <span> Affiliates</span></div>
                                 
 <div id="content-vw">
   <div class="background-skin-page">
         <h1 class="vw-page-title">Affiliates</h1>
     <div class="entry-content"><p>
-</p><div class="wp-block-media-text alignwide is-stacked-on-mobile has-background" style="background-color:#f1f1f1;grid-template-columns:23% auto"><figure class="wp-block-media-text__media"><img loading="lazy" width="1024" height="1024" src="https://157.245.202.252/wp-content/uploads/2021/09/KUBO-LOGO-1024x1024.png" alt="" class="wp-image-113 size-full" srcset="http://157.245.202.252/wp-content/uploads/2021/09/KUBO-LOGO-1024x1024.png 1024w, http://157.245.202.252/wp-content/uploads/2021/09/KUBO-LOGO-300x300.png 300w, http://157.245.202.252/wp-content/uploads/2021/09/KUBO-LOGO-150x150.png 150w, http://157.245.202.252/wp-content/uploads/2021/09/KUBO-LOGO-768x768.png 768w, http://157.245.202.252/wp-content/uploads/2021/09/KUBO-LOGO-1536x1536.png 1536w, http://157.245.202.252/wp-content/uploads/2021/09/KUBO-LOGO-1200x1200.png 1200w, http://157.245.202.252/wp-content/uploads/2021/09/KUBO-LOGO-600x600.png 600w, http://157.245.202.252/wp-content/uploads/2021/09/KUBO-LOGO-100x100.png 100w" sizes="(max-width: 1024px) 100vw, 1024px"></figure><div class="wp-block-media-text__content">
+</p><div class="wp-block-media-text alignwide is-stacked-on-mobile has-background" style="background-color:#f1f1f1;grid-template-columns:23% auto"><figure class="wp-block-media-text__media"><img loading="lazy" width="1024" height="1024" 
+  src="{{ asset('uploads/2021/09/KUBO-LOGO-1024x1024.png')}}" alt="" class="wp-image-113 size-full" 
+  srcset="{{ asset('uploads/2021/09/KUBO-LOGO-1024x1024.png')}} 1024w, 
+  {{ asset('uploads/2021/09/KUBO-LOGO-300x300.png')}} 300w, 
+  {{ asset('uploads/2021/09/KUBO-LOGO-150x150.png')}} 150w, 
+  {{ asset('uploads/2021/09/KUBO-LOGO-768x768.png')}} 768w, 
+  {{ asset('uploads/2021/09/KUBO-LOGO-1536x1536.png')}} 1536w, 
+  {{ asset('uploads/2021/09/KUBO-LOGO-1200x1200.png')}} 1200w, 
+  {{ asset('uploads/2021/09/KUBO-LOGO-600x600.png')}} 600w, 
+  {{ asset('uploads/2021/09/KUBO-LOGO-100x100.png')}} 100w"
+   sizes="(max-width: 1024px) 100vw, 1024px"></figure><div class="wp-block-media-text__content">
 <h2>CUBO MARKET</h2>
 
 
@@ -30,7 +40,15 @@
 
 
 
-<div class="wp-block-media-text alignwide is-stacked-on-mobile has-background" style="background-color:#f1f1f1;grid-template-columns:23% auto"><figure class="wp-block-media-text__media"><img loading="lazy" width="1024" height="1024" src="https://157.245.202.252/wp-content/uploads/woocommerce-placeholder-1024x1024.png" alt="" class="wp-image-33 size-large" srcset="http://157.245.202.252/wp-content/uploads/woocommerce-placeholder-1024x1024.png 1024w, http://157.245.202.252/wp-content/uploads/woocommerce-placeholder-300x300.png 300w, http://157.245.202.252/wp-content/uploads/woocommerce-placeholder-100x100.png 100w, http://157.245.202.252/wp-content/uploads/woocommerce-placeholder-600x600.png 600w, http://157.245.202.252/wp-content/uploads/woocommerce-placeholder-150x150.png 150w, http://157.245.202.252/wp-content/uploads/woocommerce-placeholder-768x768.png 768w, http://157.245.202.252/wp-content/uploads/woocommerce-placeholder.png 1200w" sizes="(max-width: 1024px) 100vw, 1024px"></figure><div class="wp-block-media-text__content">
+<div class="wp-block-media-text alignwide is-stacked-on-mobile has-background" style="background-color:#f1f1f1;grid-template-columns:23% auto"><figure class="wp-block-media-text__media"><img loading="lazy" width="1024" height="1024" 
+  src="{{ asset('uploads/2021/09/woocommerce-placeholder-1024x1024.png')}}" alt="" class="wp-image-33 size-large" 
+  srcset="{{ asset('uploads/2021/09/woocommerce-placeholder-1024x1024.png')}} 1024w, 
+  {{ asset('uploads/2021/09/woocommerce-placeholder-300x300.png')}} 300w, 
+  {{ asset('uploads/2021/09/woocommerce-placeholder-100x100.png')}} 100w,
+  {{ asset('uploads/2021/09/woocommerce-placeholder-600x600.png')}} 600w, 
+  {{ asset('uploads/2021/09/woocommerce-placeholder-150x150.png')}} 150w, 
+  {{ asset('uploads/2021/09/woocommerce-placeholder-768x768.png')}} 768w, 
+  {{ asset('uploads/2021/09/woocommerce-placeholder.png')}} 1200w" sizes="(max-width: 1024px) 100vw, 1024px"></figure><div class="wp-block-media-text__content">
 <h2>COMING SOON</h2>
 
 

@@ -27,15 +27,10 @@ Route::get('/content', [ ContentController::class, 'show_list' ])->name('content
 
 Route::get('/content/{name}', [ ContentController::class, 'show' ])->name('content-show');
 
-Route::get('/services', function () {
+
+Route::get('/our-services', function () {
     return view('services');
 });
-
-
-Route::get('/services', function () {
-    return view('services');
-});
-
 
 
 Route::get('/team', function () {

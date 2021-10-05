@@ -49,7 +49,11 @@
         
         
         <div class="wp-block-column article-inner-box p-4 mb-lg-0 mb-4">
-        <div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://157.245.202.252/wp-content/themes/sirat/inc/block-patterns/images/services2.png" alt="" class="wp-image-6498" width="50" height="50"></figure></div>
+        <div class="wp-block-image"><figure class="aligncenter size-large is-resized">
+            <img 
+            style="width: 45%; height:45%"
+            loading="lazy"  
+            src="{{ asset('services/services.png') }}" alt="" class="wp-image-6498"></figure></div>
         
         
         
@@ -57,17 +61,17 @@
         
         
         
-        <h3 class="has-text-align-center mb-2 has-text-color" style="color:#121212">Social Media Marketing</h3>
+        <h3 class="has-text-align-center mb-2 has-text-color" style="color:#121212">Services</h3>
         
-        
-        
-        <ul class="has-black-color has-text-color"><li>Content Publishing</li><li>Online Presence</li><li>Analyze Outcomes</li><li>Branding</li><li>ROI</li></ul>
         </div>
         
         
         
         <div class="wp-block-column article-inner-box p-4 mb-lg-0 mb-4">
-        <div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><img src="https://157.245.202.252/wp-content/themes/sirat/inc/block-patterns/images/services3.png" alt="" class="wp-image-6499"></figure></div>
+        <div class="wp-block-image is-style-default"><figure class="aligncenter size-large">
+            <img 
+            style="width: 45%; height:45%"
+            src="{{ asset('services/team.png') }}" alt="" class="wp-image-6499"></figure></div>
         
         
         
@@ -75,7 +79,7 @@
         
         
         
-        <h3 class="has-text-align-center mb-2 has-text-color" style="color:#121212">Outcome</h3>
+        <h3 class="has-text-align-center mb-2 has-text-color" style="color:#121212">Team</h3>
         
         
         
@@ -83,10 +87,31 @@
         
         
         
-        <ul class="has-black-color has-text-color"><li>Sales Boost</li><li>Customer Engagement</li></ul>
+        
         </div>
         
-        
+        <div class="wp-block-column article-inner-box p-4 mb-lg-0 mb-4">
+            <div class="wp-block-image is-style-default"><figure class="aligncenter size-large">
+                <img 
+                style="width: 45%; height:45%"
+                src="{{ asset('services/affiliates.png') }}" alt="" class="wp-image-6499"></figure></div>
+            
+            
+            
+            <hr class="wp-block-separator alignwide has-text-color has-background has-cyan-bluish-gray-background-color has-cyan-bluish-gray-color">
+            
+            
+            
+            <h3 class="has-text-align-center mb-2 has-text-color" style="color:#121212">Affiliates</h3>
+            
+            
+            
+            <p></p>
+            
+            
+            
+            
+            </div>
         
         
         </div>
