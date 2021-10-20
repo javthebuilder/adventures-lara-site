@@ -13,7 +13,7 @@
 <div class="container">
     <main id="content" role="main" class="middle-align">
       <div class="row">
-            <div id="our-services" class="services col-lg-8 col-md-8"> 
+            <div id="our-services" class="services col-lg-12 col-md-12" style="margin-top: 25px;"> 
 
                   @foreach ($contents as $content)
                   <article id="post-50" class="inner-service post-50 post type-post status-publish format-standard has-post-thumbnail hentry category-blog-content">
@@ -68,7 +68,7 @@
                         <div class="clearfix"></div>
                   </div>
             </div>
-          <div class="col-lg-4 col-md-4" id="sidebar">      
+          <div class="col-lg-4 col-md-4" id="sidebar" style="display: none;">      
             <aside id="block-2" class="widget widget_block widget_search"><form role="search" method="get" action="http://157.245.202.252/" 
             class="wp-block-search__button-outside wp-block-search__text-button wp-block-search">
             <label for="wp-block-search__input-1" class="wp-block-search__label">Search</label>
