@@ -136,13 +136,14 @@ class ContentController extends Controller
         $content = Content::find($id);
 
         if(!$content){
-            $request->session()->flash('error', 'Problem on updating the metaltype.');
+            $request->session()->flash('error', 'Problem on updating the post.');
             //return redirect(route('item_metal_types.metal_types.index'));
             return redirect(route('content-list'));
         }
 
         
-        $content->name = $request->name;
+        //$content->name = $request->name;
+        $content->name = str_slug($request->main_title_header);
         $content->main_title_header = $request->main_title_header;
         $content->secondary_title_header = $request->secondary_title_header;
         $content->content_body_text = $request->content_body_text;        
@@ -166,7 +167,7 @@ class ContentController extends Controller
 
         
 
-        $request->session()->flash('success', 'You have updated the metaltype info');
+        $request->session()->flash('success', 'You have updated the content info');
         //return redirect(route('item_metal_types.metal_types.index'));
         return redirect(route('content-list'));
     }

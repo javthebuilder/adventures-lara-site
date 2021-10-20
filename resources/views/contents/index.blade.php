@@ -70,7 +70,7 @@
                                 <button type="button" style="color: red"
                                 onclick="event.preventDefault();
                                 document.getElementById('delete-content-form-{{ $content->id }}').submit();"><i class="fa fa-trash"></i> &nbsp; REMOVE</button>
-                                <form id="delete-metaltype-form-{{ $content->id }}" action="{{ route('content-destroy', $content->id) }}" method="POST" style="display: none">
+                                <form id="delete-content-form-{{ $content->id }}" action="{{ route('content-destroy', $content->id) }}" method="POST" style="display: none">
                                     @csrf
                                     @method("DELETE")
                                 </form>
