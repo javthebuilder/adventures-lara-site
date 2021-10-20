@@ -45,7 +45,12 @@
                                                 </div>
                                                 @endauth
                                           <div class="entry-content">
-                                                                        <p>{{ $content->content_body_text }} </p>
+                                                @php
+                                                echo     $content->content_body_text;
+                                                @endphp
+                                                                        {{-- <p>{{ $content->content_body_text }} </p> --}}
+
+
                                                                   </div>
                                                 
                                           </div>

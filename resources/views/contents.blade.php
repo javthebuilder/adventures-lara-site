@@ -21,14 +21,14 @@
                               <div class="row m-0">
                                     <div class="box-image col-lg-6 col-md-6">
                                           <img width="1080" height="1080" 
-                                          src="{{ asset('uploads/' . $content->main_image) }}" 
+                                          src="{{ asset('uploads/'. $content->main_image) }}" 
                                           class="attachment-post-thumbnail size-post-thumbnail wp-post-image" 
                                           alt="" 
                                           loading="lazy"                                            
                                           sizes="(max-width: 1080px) 100vw, 1080px">              
                                     </div>
                                     <div class="new-text col-lg-6 col-md-6">
-                                          <h2 class="section-title"><a href="/content/" . {{ $content->name }}>{{ $content->main_title_header }}<span class="screen-reader-text">{{ $content->main_title_header }}</span></a></h2>
+                                          <h2 class="section-title"><a href="/content/{{ $content->name }}">{{ $content->main_title_header }}<span class="screen-reader-text">{{ $content->main_title_header }}</span></a></h2>
                                           @auth
                                               
                                                       @php
