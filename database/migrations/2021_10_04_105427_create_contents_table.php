@@ -22,7 +22,7 @@ class CreateContentsTable extends Migration
             $table->string('secondary_title_header')->nullable();
             $table->string('main_image')->nullable();
             $table->string('status')->default('A');
-            $table->string('content_body_text', 200000)->nullable();
+            $table->text('content_body_text', 200000)->nullable();
             
             $table->string('add_youtube_link')->nullable();
             $table->integer('created_by')->nullable();
