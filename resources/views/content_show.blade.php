@@ -9,7 +9,7 @@
 <div class="container">
     <main id="content" role="main" class="middle-align">
       <div class="row">
-            <div id="our-services" class="services col-lg-12 col-md-12"> 
+            <div id="our-services" class="services col-lg-12 col-md-12" style="margin-top: 25px"> 
 
                   
                   <article id="post-50" class="inner-service post-50 post type-post status-publish format-standard has-post-thumbnail hentry category-blog-content">
