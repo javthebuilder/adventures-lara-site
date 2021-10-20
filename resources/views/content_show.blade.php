@@ -14,17 +14,23 @@
                   
                   <article id="post-50" class="inner-service post-50 post type-post status-publish format-standard has-post-thumbnail hentry category-blog-content">
                         <div class="post-main-box ">
-                              <div class="row m-0">
-                                    <div class="box-image col-lg-4 col-md-4">
-                                          <img width="1080" height="1080" 
-                                          src="{{ asset('uploads/' . $content->main_image) }}" 
-                                          class="attachment-post-thumbnail size-post-thumbnail wp-post-image" 
-                                          alt="" 
-                                          loading="lazy"                                            
-                                          sizes="(max-width: 1080px) 100vw, 1080px">              
+                              <center>
+                                    <div class="row m-0">
+                                          <div class="col-lg-12">
+                                                <img width="1080" height="1080" 
+                                                src="{{ asset('uploads/' . $content->main_image) }}" 
+                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image" 
+                                                alt="" 
+                                                loading="lazy"                                            
+                                                sizes="(max-width: 1080px) 100vw, 1080px">              
+                                          </div>
                                     </div>
-                                    <div class="new-text col-lg-8 col-md-8">
-                                          <h2 class="section-title"><a href="/content/" . {{ $content->name }}>{{ $content->main_title_header }}<span class="screen-reader-text">{{ $content->main_title_header }}</span></a></h2>
+                              </center>
+                              
+                              <div class="row m-0" style="padding-top: 25px;">                                    
+                                    <div class="new-text col-lg-12 col-md-12">
+                                          <h1 class="section-title">
+                                                <a href="/content/" . {{ $content->name }}>{{ $content->main_title_header }}<span class="screen-reader-text">{{ $content->main_title_header }}</span></a></h2>
                                           @auth
                                               
                                                       @php
