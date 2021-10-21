@@ -102,7 +102,7 @@ class ContentController extends Controller
         
         return view('contents')->with(
             [
-                'contents' => Content::where('status' , '=', 'A')->get()
+                'contents' => Content::where('status' , '=', 'A')->orderByDesc('updated_at')->get()
             ]
         );
     }
